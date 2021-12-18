@@ -6,7 +6,7 @@
 
 트위치 다시보기 ID는 다시보기 페이지 URL에서 확인할 수 있습니다.
 
-www.twitch.tv/videos/(다시보기 ID)
+> www.twitch.tv/videos/(다시보기 ID)
 
 ------
 
