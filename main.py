@@ -4,11 +4,13 @@ import time
 
 import openpyxl
 
+from client_config import Config
+
 
 def chat_analyse(v_id):
     # 초기화
     video_id = v_id
-    client_id = '*'
+    client_id = Config.client_id
 
     chat_list = []
     minute_list = []
@@ -23,19 +25,20 @@ def chat_analyse(v_id):
     # 다시보기 채팅 내역 가져오기
     while True:
         if i == 0:
-            url = 'https://api.twitch.tv/v5/videos/' + video_id + '/comments?content_offset_seconds=0'
+            url = f"https://api.twitch.tv/v5/videos/{video_id}/comments?content_offset_seconds=0"
             i += 1
         else:
-            url = 'https://api.twitch.tv/v5/videos/' + video_id + '/comments?cursor=' + next_cursor
+            url = f"https://api.twitch.tv/v5/videos/{video_id}/comments?cursor={next_cursor}"
 
         try:
-            response = requests.get(url, params=params, timeout=2)
+            response = requests.get(url, params=params, timeout=60)
         except:
             time.sleep(2)
             continue
 
         count += 1
 
+        print(response.text)
         j = json.loads(response.text)
 
         for k in range(0, len(j["comments"])):
