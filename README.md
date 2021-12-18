@@ -16,4 +16,4 @@
 
 > {"error":"Not Found","status":404,"message":"The v5 API is deprecated and will be shutdown on February 28, 2022. Applications that have not accessed v5 before July 15, 2021 no longer have access to v5. For more information on the v5 API shutdown plan, see https://blog.twitch.tv/2021/07/15/legacy-twitch-api-v5-shutdown-details-and-timeline/ and the Twitch API documentation at https://dev.twitch.tv/docs/api."}
 
-트위치 v5 API가 7월 15일 이후 지원이 되지 않습니다. 트위치의 최신 API는 채팅 내역을 제공하지 않아 코드가 정상적으로 결과를 출력하지 않습니다.
+트위치 v5 API가 7월 15일 이후 지원이 되지 않습니다. 트위치의 최신 API는 채팅 내역을 제공하지 않아 코드가 정상적으로 결과를 출력하지 않습니다. 차후에 다른 방법을 찾아 개선하도록 하겠습니다.
