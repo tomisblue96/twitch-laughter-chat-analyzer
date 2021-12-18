@@ -1,6 +1,6 @@
 # 트위치 다시보기 꿀잼 분석기
 
-![001_다시보기꿀잼분석기](https://user-images.githubusercontent.com/46725061/146640766-f9537004-dc07-4cb8-b33d-a6be49673a2a.png)
+![001_다시보기꿀잼분석기](https://user-images.githubusercontent.com/46725061/146641028-b8e57e85-2278-4f44-9bdc-89d6f4a5564b.png)
 
 트위치 다시보기 ID를 입력하면 채팅 로그를 분석하여 시간당 'ㅋ'의 갯수를 엑셀(xlsx) 파일로 출력합니다.
 
