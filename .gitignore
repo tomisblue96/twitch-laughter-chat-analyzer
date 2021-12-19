@@ -1,3 +1,8 @@
 .idea/
 __pycache__/
+dist/
+build/
 client_config.py
+*.html
+*.csv
+*.spec

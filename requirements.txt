@@ -1,1 +1,2 @@
-openpyxl>=2.5.12
+bokeh
+requests
