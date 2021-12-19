@@ -49,11 +49,13 @@ python main.py
      시간과 시간별 채팅 갯수가 2개의 열로 저장됩니다.
      
      ![001](https://user-images.githubusercontent.com/46725061/146656767-8a6276d7-283c-4069-adb0-e5915510d06f.png)
-- *_laugter.xlsx
-  
-  시간과 시간별 웃음('ㅋ') 갯수가 2개의 열로 저장됩니다.
-  
-  ![002](https://user-images.githubusercontent.com/46725061/146656771-52c560bb-3aa8-490d-83cf-ffeb4adced30.png)
+   
+   - *_laugter.xlsx
+     
+     시간과 시간별 웃음('ㅋ') 갯수가 2개의 열로 저장됩니다.
+     
+     ![002](https://user-images.githubusercontent.com/46725061/146656771-52c560bb-3aa8-490d-83cf-ffeb4adced30.png)
+
 4. 엑셀 내부 그래프 기능이나 외부 그래프 툴을 이용해 시각화할 수 있습니다. 유저들이 어느 시각에 반응이 좋았는지 확인할 수 있습니다.
 
 ![003](https://user-images.githubusercontent.com/46725061/146656775-d198feb8-e4bf-4ccb-85da-8e5dcf04c7b4.png)
